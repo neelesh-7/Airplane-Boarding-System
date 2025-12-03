@@ -5,8 +5,6 @@ import java.util.Scanner;
 
 public class AirplaneDemo {
     public static void main(String[] args) {
-        myHeader(5);
-
         Scanner input = new Scanner(System.in);
         boolean running = true;
 
@@ -128,8 +126,6 @@ public class AirplaneDemo {
                 System.out.println("Invalid entry. Please enter a number.\n");
             }
         }
-
-        myFooter(5);
     }
 
     // Prints the menu of available actions
@@ -141,24 +137,6 @@ public class AirplaneDemo {
         System.out.println("4. Empty an Individual Seat");
         System.out.println("5. Show Seating Layout");
         System.out.println("6. Quit Program");
-    }
-
-    // Header shown at the start of the lab
-    public static void myHeader(int num) {
-        System.out.println("=======================================================");
-        System.out.println("Lab Exercise " + num + "-Q");
-        System.out.println("Prepared By: Neelesh Sirdana");
-        System.out.println("Student Number: 251412617");
-        System.out.println("Goal of this Exercise: Working with Doubly Linked List and ADTs.");
-        System.out.println("=======================================================");
-    }
-
-    // Footer printed when the program ends
-    public static void myFooter(int num) {
-        System.out.println("=======================================================");
-        System.out.println("Completion of Lab Exercise " + num + "-Q is successful!");
-        System.out.println("Signing off - Neelesh");
-        System.out.println("=======================================================");
     }
 }
 
